@@ -4,7 +4,7 @@
 \alias{plotStem2d}
 \title{Create a 2-D stem plot}
 \usage{
-plotStem2d(hi,di,col,box)
+plotStem2d(hi,di,col)
 }
 \arguments{
 \item{hi, }{vector of measured tree i heights}
@@ -12,8 +12,6 @@ plotStem2d(hi,di,col,box)
 \item{di, }{vector of measured tree diameters (di) at i heights}
 
 \item{col, }{stem color, e.g. "chocolate"}
-
-\item{box, }{if TRUE, a 2D box will be added to the plot}
 }
 \value{
 Returns an object of class "lm"
@@ -23,16 +21,15 @@ plotStem2d is used to Create a 2-D stem plot
 }
 \examples{
 # Importing forest inventory data
-fpath<- system.file("extdata", "taper.csv", package="rForest") 
-TreeList<-read.table(fpath, sep=",", head=T) # reading data
+data(taper) # or import a table e.g. taper<-read.table(taper.csv, sep=",", head=T) 
 
 # Subsetting Tree 1
-T1<-subset(TreeList,TreeList[,2]==1)
-hi<-T1$sec
-di<-T1$ccc/pi
+tree1<-subset(taper,taper[,2]==1)
+hi<-tree1$sec
+di<-tree1$ccc/pi
 
 # Plotting stem 2d
-plotStem2d(hi,di, col="chocolate4",box=TRUE)
+plotStem2d(hi,di, col="chocolate4")
 }
 \author{
 Carlos A. Silva, Samuel P. C. Carvalho, Carine Klauberg Silva and Manoela de O. Rosa

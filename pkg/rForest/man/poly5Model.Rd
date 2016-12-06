@@ -25,15 +25,13 @@ poly5Model is used to fit a fifth-degree polynomial taper model
 }
 \examples{
 # Importing forest inventory data
-fpath<-system.file("extdata", "taper.csv", package="rForest") 
-TreeList<-read.table(fpath, sep=",", head=T) # reading data
+data(taper) # or import a table e.g. taper<-read.table(taper.csv, sep=",", head=T) 
 
 # setting model parametersdbh and ht
-ht<-TreeList[,6]
-dbh<-TreeList[,7]
-di<-TreeList[,4]/pi
-hi<-TreeList[,3]
-plot(hi/ht, di/dbh)
+ht<-taper[,6]
+dbh<-taper[,7]
+di<-taper[,4]/pi
+hi<-taper[,3]
 
 # fitting the fifth-degree polynomial taper model
 fit <- poly5Model(dbh,ht,di,hi, plotxy=TRUE)
