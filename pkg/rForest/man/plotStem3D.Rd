@@ -30,9 +30,6 @@ di<-tree1$ccc/pi
 
 # Plotting stem 3d
 plotStem3d(hi,di,alpha=1,col="green")
-require(rgl)
-aspect3d(0.3,0.3,1)
-title3d(zlab = "Height (m)", col="black") # title
 }
 \author{
 Carlos Alberto Silva
