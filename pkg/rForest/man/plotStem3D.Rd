@@ -2,9 +2,9 @@
 % Please edit documentation in R/plotStem3d.R
 \name{plotStem3d}
 \alias{plotStem3d}
-\title{Create a 3-D stem plot}
+\title{3D visualization of tree stems}
 \usage{
-plotStem3d(hi,di,col, alpha)
+plotStem3d(hi,di,col,alpha)
 }
 \arguments{
 \item{hi, }{vector of trees his}
@@ -16,10 +16,9 @@ plotStem3d(hi,di,col, alpha)
 \item{alpha, }{stem transparency. Set a value from 0 to 1}
 }
 \description{
-plotStem3d is used to Create a 3-D stem plot
+plotStem3d is used to visualize tree stems in 3D
 }
 \examples{
-# Importing forest inventory data
 # Importing forest inventory data
 data(ForestInv01) 
 
@@ -29,7 +28,7 @@ hi<-tree1$hi
 di<-tree1$di
 
 # Plotting stem 3d
-plotStem3d(hi,di,alpha=1,col="green")
+plotStem3d(hi,di,alpha=1,col="forestgreen")
 }
 \author{
 Carlos Alberto Silva

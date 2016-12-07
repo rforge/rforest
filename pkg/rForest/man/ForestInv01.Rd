@@ -1,11 +1,10 @@
 \docType{data}
 \name{ForestInv01}
 \alias{ForestInv01}
-\title{Example of how object tree in \code{\link{poly5Model}}, \code{\link{plotStem2d}} and \code{\link{plotStem3d}}function should be formated}
+\title{Example of how forest inventory data should be used in \code{\link{poly5Model}}, \code{\link{plotStem2d}} and \code{\link{plotStem3d}}functions }
 \format{A data frame with 131 rows and 5 variables}
 \description{
-  This dataset includes forest inventory data collected in Eucalyptus spp. forest plantations plantations. All diameters mensures (dbh and di) should rather be
-  in centimeters and heights in meters. 
+  Forest inventory data collected in Eucalyptus spp. forest plantations. 
 }
 \details{
   \itemize{ 

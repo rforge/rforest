@@ -1,14 +1,13 @@
-#'Create a 3-D stem plot
+#'3D visualization of tree stems
 #'
-#'@description plotStem3d is used to Create a 3-D stem plot
-#'@usage plotStem3d(hi,di,col, alpha) 
+#'@description plotStem3d is used to visualize tree stems in 3D 
+#'@usage plotStem3d(hi,di,col,alpha) 
 #'@param hi, vector of trees his
 #'@param di, vector of trees dis
 #'@param col, stem color, e.g. "chocolate"
 #'@param alpha, stem transparency. Set a value from 0 to 1
 #'@author Carlos Alberto Silva
 #'@examples
-#'# Importing forest inventory data
 #'# Importing forest inventory data
 #'data(ForestInv01) 
 #'
@@ -18,7 +17,7 @@
 #'di<-tree1$di
 #'
 #'# Plotting stem 3d
-#'plotStem3d(hi,di,alpha=1,col="green")
+#'plotStem3d(hi,di,alpha=1,col="forestgreen")
 #'@importFrom rgl triangles3d
 #'@importFrom geometry convhulln
 #'@export

@@ -1,12 +1,12 @@
-#'Create a 2-D stem plot
-#' 
-#'@description plotStem2d is used to Create a 2-D stem plot
+#'2D visualization of tree stems
+#'
+#'@description plotStem3d is used to visualize tree stems in 32 
 #'@usage plotStem2d(hi,di,col)
 #'@param hi, vector of measured tree i heights
 #'@param di, vector of measured tree diameters (di) at i heights
 #'@param col, stem color, e.g. "chocolate"
 #'@return Returns an object of class "lm"
-#'@author Carlos A. Silva, Samuel P. C. Carvalho, Carine Klauberg Silva and Manoela de O. Rosa
+#'@author Carlos A. Silva
 #'@examples
 #'# Importing forest inventory data
 #'data(ForestInv01) 
@@ -17,12 +17,12 @@
 #'di<-tree1$di
 #'
 #'# Plotting stem 2d
-#'plotStem2d(hi,di, col="chocolate4")
+#'plotStem2d(hi,di, col="forestgreen")
 #'@importFrom sp SpatialPolygons
 #'@importFrom grDevices chull
 #'@importFrom graphics arrows curve grid plot text
 #'@export
-plotStem2d<-function(hi,di,col="chocolate4") {
+plotStem2d<-function(hi,di,col="forestgreen") {
 
   cone2d<-function(h0,h1,d0,d1){
     if((d1==0)) {

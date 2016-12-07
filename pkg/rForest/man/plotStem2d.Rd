@@ -2,7 +2,7 @@
 % Please edit documentation in R/plotStem2d.R
 \name{plotStem2d}
 \alias{plotStem2d}
-\title{Create a 2-D stem plot}
+\title{2D visualization of tree stems}
 \usage{
 plotStem2d(hi,di,col)
 }
@@ -17,7 +17,7 @@ plotStem2d(hi,di,col)
 Returns an object of class "lm"
 }
 \description{
-plotStem2d is used to Create a 2-D stem plot
+plotStem3d is used to visualize tree stems in 32
 }
 \examples{
 # Importing forest inventory data
@@ -29,9 +29,9 @@ hi<-tree1$hi
 di<-tree1$di
 
 # Plotting stem 2d
-plotStem2d(hi,di, col="chocolate4")
+plotStem2d(hi,di, col="forestgreen")
 }
 \author{
-Carlos A. Silva, Samuel P. C. Carvalho, Carine Klauberg Silva and Manoela de O. Rosa
+Carlos A. Silva
 }
 
