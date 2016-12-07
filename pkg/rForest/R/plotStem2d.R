@@ -9,7 +9,7 @@
 #'@author Carlos A. Silva, Samuel P. C. Carvalho, Carine Klauberg Silva and Manoela de O. Rosa
 #'@examples
 #'# Importing forest inventory data
-#'data(ForestInv01) # or import a table e.g. taper<-read.table(taper.csv, sep=",", head=T) 
+#'data(ForestInv01) 
 #'
 #'# Subsetting Tree 1
 #'tree1<-subset(ForestInv01,ForestInv01[,1]==1)

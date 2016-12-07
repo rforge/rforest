@@ -25,7 +25,7 @@ poly5Model is used to fit a fifth-degree polynomial taper model
 }
 \examples{
 # Importing forest inventory data
-data(ForestInv01) # or import a table e.g. taper<-read.table(ForestInv.csv, sep=",", head=T) 
+data(ForestInv01) 
 
 # setting model parametersdbh and ht
 hi<-ForestInv01[,2]

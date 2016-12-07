@@ -23,7 +23,7 @@ VisTaperShape3d is used for visualizing taper models in 3-D
 \examples{
 \dontrun{
 # Importing forest inventory data
-data(ForestInv01) # or import a table e.g. taper<-read.table(taper.csv, sep=",", head=T) 
+data(ForestInv01) 
 
 # setting model parametersdbh and ht
 hi<-ForestInv01[,2]
