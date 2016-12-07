@@ -1,10 +1,10 @@
 \docType{data}
 \name{ForestInv01}
 \alias{ForestInv01}
-\title{Example of how forest inventory data should be used in \code{\link{poly5Model}}, \code{\link{plotStem2d}} and \code{\link{plotStem3d}}functions }
+\title{Forest Inventory Data - Example 01 }
 \format{A data frame with 131 rows and 5 variables}
 \description{
-  Forest inventory data collected in Eucalyptus spp. forest plantations. 
+  Forest inventory data collected in Eucalyptus spp. forest plantations. This is an example of forest inventory data used in \code{\link{poly5Model}}, \code{\link{plotStem2d}} and \code{\link{plotStem3d}} functions   
 }
 \details{
   \itemize{ 
