@@ -10,12 +10,12 @@
 #'@examples
 #'# Importing forest inventory data
 #'# Importing forest inventory data
-#'data(taper) # or import a table e.g. taper<-read.table(taper.csv, sep=",", head=T) 
+#'data(ForestInv01) # or import a table e.g. taper<-read.table(taper.csv, sep=",", head=T) 
 #'
 #'# Subsetting Tree 1
-#'tree1<-subset(taper,taper[,2]==1)
-#'hi<-tree1$sec
-#'di<-tree1$ccc/pi
+#'tree1<-subset(ForestInv01,ForestInv01[,1]==1)
+#'hi<-tree1$hi
+#'di<-tree1$di
 #'
 #'# Plotting stem 3d
 #'plotStem3d(hi,di,alpha=1,col="green")

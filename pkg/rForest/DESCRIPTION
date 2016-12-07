@@ -1,6 +1,6 @@
 Package: rForest
 Type: Package
-Title: Forest Inventory Analysis
+Title: Forest Inventory and Analysis
 Version: 1.0
 Date: 2016-01-17
 Author: Carlos A. Silva, Samuel P. C. Carvalho, Carine Klauberg Silva and
@@ -8,7 +8,7 @@ Author: Carlos A. Silva, Samuel P. C. Carvalho, Carine Klauberg Silva and
 Maintainer: Carlos Alberto Silva <carlos_engflorestal@hotmail.com>
 Depends: R (>= 3.1.2)
 Imports:sp,geometry,rgl,alphashape3d
-Description:Set of tools for processing and 
+Description: Set of tools for processing and 
 	analysing forest inventory data
 License: GPL (>=2)
 RoxygenNote: 5.0.1

@@ -16,23 +16,23 @@
 #'}
 #'@examples
 #'# Importing forest inventory data
-#'data(taper) # or import a table e.g. taper<-read.table(taper.csv, sep=",", head=T) 
+#'data(ForestInv01) # or import a table e.g. taper<-read.table(ForestInv.csv, sep=",", head=T) 
 #'
 #'# setting model parametersdbh and ht
-#'ht<-taper[,6]
-#'dbh<-taper[,7]
-#'di<-taper[,4]/pi
-#'hi<-taper[,3]
+#'hi<-ForestInv01[,2]
+#'di<-ForestInv01[,3]
+#'ht<-ForestInv01[,4]
+#'dbh<-ForestInv01[,5]
 #'
 #'# fitting the fifth-degree polynomial taper model
 #'fit <- poly5Model(dbh,ht,di,hi, plotxy=TRUE)
 #'#grid()
 #'@export
-poly5Model<-function(dbh,ht,di,hi, plotxy=TRUE) {
+poly5Model<-function(dbh,ht,di,hi,plotxy=TRUE) {
   x<-hi/ht
   lmp<-lm(I(di/dbh) ~ I(x) + I((x)^2) + I((x)^3) + I((x)^4) + I((x)^5))
   
-  if (plotxy) {
+  if (plotxy==TRUE) {
   plot(hi/ht, di/dbh)
   curve(lmp$coefficients[1]+lmp$coefficients[2]*x+lmp$coefficients[3]*x^2
         +lmp$coefficients[4]*x^3+lmp$coefficients[5]*x^4+lmp$coefficients[6]*x^5, 
