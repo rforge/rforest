@@ -8,6 +8,6 @@ Author: Carlos A. Silva, Carine Klauberg Silva, Samuel P. C. Carvalho and
 Maintainer: Carlos Alberto Silva <carlos_engflorestal@hotmail.com>
 Depends: R (>= 3.1.2)
 Imports:sp,geometry,rgl,alphashape3d
-Description: Set of tools designed for the analysis of forest inventory data.
+Description: Set of tools designed for forest inventory analysis.
 License: GPL (>=2)
 RoxygenNote: 5.0.1
