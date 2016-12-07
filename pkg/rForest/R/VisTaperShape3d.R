@@ -34,7 +34,8 @@
 #'grid3d(c("x+","y+"))
 #'aspect3d(0.3,0.3,1)
 #'}
-#'@importFrom rgl open3d
+#'@importFrom rgl open3d triangles3d
+#'@importFrom stats coef
 #'@importFrom alphashape3d ashape3d
 #'@export
 VisTaperShape3d<-function(model,dbh,height,col="forestgreen", solid=TRUE){

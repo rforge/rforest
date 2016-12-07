@@ -19,6 +19,8 @@
 #'# Plotting stem 2d
 #'plotStem2d(hi,di, col="chocolate4")
 #'@importFrom sp SpatialPolygons
+#'@importFrom grDevices chull
+#'@importFrom graphics arrows curve grid plot text
 #'@export
 plotStem2d<-function(hi,di,col="chocolate4") {
 

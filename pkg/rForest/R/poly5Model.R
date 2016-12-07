@@ -27,6 +27,7 @@
 #'# fitting the fifth-degree polynomial taper model
 #'fit <- poly5Model(dbh,ht,di,hi, plotxy=TRUE)
 #'#grid()
+#'@importFrom stats coef lm 
 #'@export
 poly5Model<-function(dbh,ht,di,hi,plotxy=TRUE) {
   x<-hi/ht
