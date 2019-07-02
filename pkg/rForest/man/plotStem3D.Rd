@@ -33,4 +33,3 @@ plotStem3d(hi,di,alpha=1,col="forestgreen")
 \author{
 Carlos Alberto Silva
 }
-

@@ -34,4 +34,3 @@ plotStem2d(hi,di, col="forestgreen")
 \author{
 Carlos A. Silva
 }
-

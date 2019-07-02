@@ -1,6 +1,6 @@
 #'2D visualization of tree stems
 #'
-#'@description plotStem3d is used to visualize tree stems in 32 
+#'@description plotStem3d is used to visualize tree stems in 3D 
 #'@usage plotStem2d(hi,di,col)
 #'@param hi, vector of measured tree i heights
 #'@param di, vector of measured tree diameters (di) at i heights

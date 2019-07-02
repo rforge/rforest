@@ -49,4 +49,3 @@ aspect3d(0.3,0.3,1)
 \author{
 Carlos Alberto Silva and Joao Paulo Sardo Madi
 }
-

@@ -37,13 +37,12 @@ dbh<-ForestInv01[,5]
 fit <- poly5Model(dbh,ht,di,hi, plotxy=TRUE)
 #grid()
 }
-\author{
-Carlos A. Silva, Samuel P. C. Carvalho, Carine Klauberg Silva and Manoela de O. Rosa
-}
 \references{
 Schoepfer (1966) model :fifth-degree polynomial taper model 
 \itemize{
   \eqn{di/dbh= (hi/ht) + (hi/ht)^2 + (hi/ht)^3 + (hi/ht)^4 + (hi/ht)^5}\cr
 }
 }
-
+\author{
+Carlos A. Silva, Samuel P. C. Carvalho, Carine Klauberg Silva and Manoela de O. Rosa
+}
