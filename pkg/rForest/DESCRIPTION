@@ -1,8 +1,8 @@
 Package: rForest
 Type: Package
 Title: Forest Inventory and Analysis
-Version: 0.1.1
-Date: 2016-01-17
+Version: 0.1.3
+Date: 2021-06-21
 Author: 
     Carlos A. Silva, 
     Carine Klauberg Silva, 
@@ -10,7 +10,7 @@ Author:
     Manoela de O. Rosa,
     Joao P. S. Madi,
     Caio Hamamura
-Maintainer: Carlos Alberto Silva <carlos_engflorestal@hotmail.com>
+Maintainer: Carlos Alberto Silva <carlos_engflorestal@outlook.com>
 Depends: R (>= 3.1.2)
 Imports: 
     alphashape3d,
